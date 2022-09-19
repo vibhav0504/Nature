@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    margin: 8px 20px;
+}
+.container{
+    display: flex;
+    
+}
+.navbar{ 
+    position: absolute;
+    top: 8px;
+    right: 250px;
+}
+.navbar li{
+    float: right;
+    margin: 8px 20px;
+    font-size: 20px;
+   
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li a{
+color: white;
+   padding: 3px 5px;
+   text-decoration: none;
+}
+.navbar li a:hover{
+    color: black;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:  555px ;
+    font-family: cursive;
+}
+#home .new{
+    display: flex;
+    flex-direction: row;
+}
+#home::before {
+    content: "";
+    position: absolute;
+    background-image: url("header-hero.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+
+    
+}
+.box{
+    position: absolute;
+    top: 3px;
+    right: 60px;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 44px;
+    margin:  10px 7px;
+    padding: 3px 25px;
+}
+#home .con{
+    color: white;
+    font-size: 50px;
+    line-height: 0px;
+    margin: 0px;
+    
+    }
+#home .cont{
+    color: white;
+    font-size: 100px;
+    line-height: 0px;
+    margin: 0px;
+    padding: 65px;
+}
+#home p{
+    line-height: 0px;
+    color: white;
+    font-size: 17px;
+}
+
+.btn{
+    color: rgb(29, 34, 22);
+    background-color: rgb(247, 247, 8);
+    border: 2px solid rgb(247, 247, 8);
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 15px ;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.prim{
+    display: block;
+    color: rgb(29, 34, 22);
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(251, 251, 7);
+    
+
+}
+
+#services{
+    display: flex;
+    margin-left:100px;
+    margin-right:70px;
+}
+
+.boxes{
+     
+    border-radius: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.para{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    text-align: center;
+}
+.heading{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#remark::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    /* background-image: url("header-hero1.jpg"); */
+    background-color: ghostwhite;
+    height: 400px;
+    width: 100%;
+    opacity: 0.5px;
+    z-index: -1;
+    
+}
+#remark{
+    margin: 100px;
+    padding:   250px 50px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    /* color: white; */
+}
+
+#remark img{
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    height: 40px;
+    width: 40px;
+}
+#About{
+    margin-top: 10px;
+    padding: 30px;
+    color:green ;
+    position: absolute;
+    top: 2000px;
+    width: 1280px;
+    height: 600px;
+}
+ .head {
+    margin-left: 40px;
+    
+} 
+.us{
+    margin-left: 40px;
+    margin-top: 3px;
+    font-size:  40px;
+    color: gray;
+    /* padding-bottom: 20px 0px ; */
+}
+.text{
+    margin: 80px  40px ;
+    color: grey;
+    font-size: 20px;
+}
+.btn1{
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 25px 42px  ;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.btn1:hover{
+    border:2px dotted greenyellow ;
+}
+.image{
+    position: absolute;
+    top: 50px;
+    right: 120px;
+}
+#question{
+    position: absolute;
+    top: 2700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     /* border: 2px solid blue; */
+     width: 1345px;
+    height: 468px;
+   background: url("footer-hero-big.jpg");
+}
+.use{
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size:  40px;
+    color: green;
+    
+}
+#foot{
+    position: absolute;
+    top: 3200px;
+    width: 1345px;
+    height: 100px;
+    color: grey;
+    display: flex;
+}
+.nav{ 
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+.nav li{
+    float: right;
+    margin: 8px 20px;
+    font-size: 20px;
+   
+}
+.nav ul{
+    list-style: none;
+}
+.nav li a{
+color: grey;
+   padding: 3px 5px;
+   text-decoration: none;
+}
+.nav li a:hover{
+    color: gray;
+}
+
+.mid{
+display: block;
+width: 100px;
+margin: 15px auto;
+}
+.right{
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}

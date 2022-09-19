@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    margin: 8px 20px;
+}
+.container{
+    display: flex;
+    
+}
+.navbar{ 
+    position: absolute;
+    top: 8px;
+    right: 250px;
+}
+.navbar li{
+    float: right;
+    margin: 8px 20px;
+    font-size: 20px;
+   
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li a{
+color: white;
+   padding: 3px 5px;
+   text-decoration: none;
+}
+.navbar li a:hover{
+    color: black;
+}
+
+#home{
+    padding: 50px 0px ;
+    text-align: center;
+    font-family: cursive;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("header-hero-1.jpg") ;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+}
+#home p{
+    color: white;
+    font-size: 80px;
+}
+.box{
+    position: absolute;
+    top: 3px;
+    right: 60px;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 44px;
+    margin:  10px 7px;
+    padding: 3px 25px;
+}
+.para{
+    
+    padding-top: 100px ;
+    padding-left: 350px ;
+    color: gray;
+    font-size: 35px;
+    line-height: 40px;
+}
+#box{
+margin: 10px 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#box img{
+    height: 500px;
+}
+.part{
+    display: flex;
+}
+div h1{
+    margin: 20px 5px;
+    text-align: center;
+}
+.par{
+    margin: 10px 5px;
+    padding: 0px 30px;
+    font-size: 20px;
+    color: grey;
+    line-height: 25px;
+}
+#avatar{
+    margin-top: 50px ;
+    padding: 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+   background-color: blanchedalmond;
+   height: 300px;
+
+   
+}
+
+
+.heading{
+    font-size: 25px;
+    font-family: cursive;
+    color: green;
+}
+#avatar img{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    width: 50px;
+}
+#foot{
+    
+    height: 100px;
+    color: grey;
+    display: flex;
+}
+.nav{ 
+    position: absolute;
+    padding-top: 12px;
+    left: 50px;
+}
+.nav li{
+    float: right;
+    margin: 8px 20px;
+    font-size: 20px;
+   
+}
+.nav ul{
+    list-style: none;
+}
+.nav li a{
+color: grey;
+   padding: 3px 5px;
+   text-decoration: none;
+}
+.nav li a:hover{
+    color: gray;
+}
+
+.mid{
+display: block;
+width: 100px;
+margin: 15px auto;
+}
+.right{
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}
